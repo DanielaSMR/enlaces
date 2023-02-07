@@ -13,3 +13,21 @@ span.S{
 span.titulo{
     color: blue;
 }
+p.h4:hover{
+    background-color: yellow;
+    color:red;
+}
+
+div.enlaces{
+    text-align: left;
+}
+
+a.Link:link{
+    background-color: white;
+    color: blue;
+}
+
+a.Link:visited{
+    background-color: blue;
+    color: white;
+}
