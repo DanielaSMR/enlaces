@@ -3,7 +3,7 @@ body{
     background-color: rgb(142, 216, 250);
 }
 
-p::first-line{
+p.texto::first-line{
     color:red;
 }
 
@@ -30,4 +30,12 @@ a.Link:link{
 a.Link:visited{
     background-color: blue;
     color: white;
+}
+
+h3.contador{
+    counter-reset: cuenta-productos;
+}
+p.productos::before{
+    content: counter(cuenta-productos)".";
+    counter-increment: cuenta-productos;
 }
