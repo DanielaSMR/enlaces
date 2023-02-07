@@ -1,0 +1,15 @@
+a[href*="dogv"]{
+    color: red;
+}
+
+a[href*="dogv"]{
+    color: blue;
+}
+
+a[href*="edu"]{
+    color: green;
+}
+
+a[href="https://trololo"]{
+    color: yellow;
+}
